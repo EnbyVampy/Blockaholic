@@ -1,0 +1,13 @@
+{
+  "itemGroup.blockaholic": "Example Mod Tab",
+  "block.blockaholic.example_block": "Example Block",
+  "item.blockaholic.example_item": "Example Item",
+
+  "blockaholic.configuration.title": "Blockaholic Configs",
+  "blockaholic.configuration.section.blockaholic.common.toml": "Blockaholic Configs",
+  "blockaholic.configuration.section.blockaholic.common.toml.title": "Blockaholic Configs",
+  "blockaholic.configuration.items": "Item List",
+  "blockaholic.configuration.logDirtBlock": "Log Dirt Block",
+  "blockaholic.configuration.magicNumberIntroduction": "Magic Number Text",
+  "blockaholic.configuration.magicNumber": "Magic Number"
+}
