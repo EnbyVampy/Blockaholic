@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "blockaholic:block/alien_grass_block_top",
+    "bottom": "blockaholic:block/alien_grass_block_bottom",
+    "side": "blockaholic:block/alien_grass_block_side"
+  }
+}

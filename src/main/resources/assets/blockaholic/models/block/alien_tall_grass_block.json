@@ -1,0 +1,28 @@
+{
+	"parent": "block/block",
+	"textures": {
+		"0": "blockaholic:block/alien_tall_grass_block",
+		"particle": "blockaholic:block/alien_tall_grass_block"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 8],
+			"to": [16, 16, 8],
+			"rotation": { "angle": -45, "axis": "y", "origin": [8, 0, 8] },
+			"faces": {
+				"north": {"uv": [8, 8, 0, 0], "rotation": 180, "texture": "#0"},
+				"south": {"uv": [8, 0, 0, 8], "texture": "#0"}
+			}
+		},
+		{
+			"from": [0, 0, 8],
+			"to": [16, 16, 8],
+			"rotation": { "angle": 45, "axis": "y", "origin": [8, 0, 8] },
+			"faces": {
+				"north": {"uv": [8, 8, 0, 0], "rotation": 180, "texture": "#0"},
+				"south": {"uv": [8, 0, 0, 8], "texture": "#0"}
+			}
+		}
+	],
+	"render_type": "cutout"
+}

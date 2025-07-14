@@ -1,13 +1,11 @@
 {
-  "itemGroup.blockaholic": "Example Mod Tab",
-  "block.blockaholic.example_block": "Example Block",
-  "item.blockaholic.example_item": "Example Item",
-
-  "blockaholic.configuration.title": "Blockaholic Configs",
-  "blockaholic.configuration.section.blockaholic.common.toml": "Blockaholic Configs",
-  "blockaholic.configuration.section.blockaholic.common.toml.title": "Blockaholic Configs",
-  "blockaholic.configuration.items": "Item List",
-  "blockaholic.configuration.logDirtBlock": "Log Dirt Block",
-  "blockaholic.configuration.magicNumberIntroduction": "Magic Number Text",
-  "blockaholic.configuration.magicNumber": "Magic Number"
+  "block.blockaholic.alien_grass_block": "Alien Grass",
+  "block.blockaholic.alien_dirt_block": "Alien Dirt",
+  "block.blockaholic.alien_dirt_ore_block": "Alien Dirt Ore",
+  "block.blockaholic.alien_fruit_block": "Alien Fruit",
+  "block.blockaholic.alien_leaves_block": "Alien Leaves",
+  "block.blockaholic.alien_log_block": "Alien Log",
+  "block.blockaholic.alien_tall_grass_block": "Alien Tall Grass",
+  "itemGroup.blockaholic.1": "Blockaholic Blocks",
+  "itemGroup.blockaholic.2": "Blockaholic Items"
 }

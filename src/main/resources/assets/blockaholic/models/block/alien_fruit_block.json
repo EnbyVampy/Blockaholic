@@ -1,0 +1,128 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "blockaholic:block/alien_fruit_block",
+		"particle": "blockaholic:block/alien_fruit_block"
+	},
+	"elements": [
+		{
+			"name": "fruit",
+			"from": [6, 0, 6],
+			"to": [10, 4, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 0, 6]},
+			"faces": {
+				"north": {"uv": [8, 0, 16, 8], "texture": "#0"},
+				"east": {"uv": [8, 0, 16, 8], "texture": "#0"},
+				"south": {"uv": [8, 0, 16, 8], "texture": "#0"},
+				"west": {"uv": [8, 0, 16, 8], "texture": "#0"},
+				"up": {"uv": [0, 0, 8, 8], "texture": "#0"},
+				"down": {"uv": [0, 0, 8, 8], "texture": "#0"}
+			}
+		},
+		{
+			"name": "stem",
+			"from": [7, 4, 7],
+			"to": [9, 5, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 4, 7]},
+			"faces": {
+				"north": {"uv": [1, 8, 5, 10], "rotation": 180, "texture": "#0"},
+				"east": {"uv": [4, 9, 6, 13], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [1, 12, 5, 14], "texture": "#0"},
+				"west": {"uv": [2, 13, 0, 9], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [5, 13, 1, 9], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"name": "leaf1",
+			"from": [5, 4.5, 7],
+			"to": [7, 5, 9],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [7, 5, 7]},
+			"faces": {
+				"north": {"uv": [15, 12, 16, 16], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [12, 16, 16, 15], "texture": "#0"},
+				"south": {"uv": [12, 16, 13, 12], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [16, 12, 12, 13], "texture": "#0"},
+				"up": {"uv": [12, 12, 16, 16], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [16, 12, 12, 16], "rotation": 270, "texture": "#0"}
+			}
+		},
+		{
+			"name": "leaf2",
+			"from": [7, 4.5, 9],
+			"to": [9, 5, 11],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [7, 5, 9]},
+			"faces": {
+				"north": {"uv": [12, 16, 16, 15], "texture": "#0"},
+				"east": {"uv": [12, 16, 13, 12], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [16, 12, 12, 13], "texture": "#0"},
+				"west": {"uv": [15, 12, 16, 16], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [12, 12, 16, 16], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [16, 12, 12, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "leaf3",
+			"from": [9, 4.5, 7],
+			"to": [11, 5, 9],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [9, 5, 9]},
+			"faces": {
+				"north": {"uv": [12, 16, 13, 12], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [16, 12, 12, 13], "texture": "#0"},
+				"south": {"uv": [15, 12, 16, 16], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [12, 16, 16, 15], "texture": "#0"},
+				"up": {"uv": [12, 12, 16, 16], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [16, 12, 12, 16], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"name": "leaf4",
+			"from": [7, 4.5, 5],
+			"to": [9, 5, 7],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [9, 5, 7]},
+			"faces": {
+				"north": {"uv": [16, 12, 12, 13], "texture": "#0"},
+				"east": {"uv": [15, 12, 16, 16], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [12, 16, 16, 15], "texture": "#0"},
+				"west": {"uv": [12, 16, 13, 12], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [12, 12, 16, 16], "texture": "#0"},
+				"down": {"uv": [16, 12, 12, 16], "rotation": 180, "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 45, 0],
+			"translation": [0, 6, 0]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 45, 0],
+			"translation": [0, 6, 0]
+		},
+		"firstperson_righthand": {
+			"translation": [0, 7, 0],
+			"scale": [0.75, 1, 0.75]
+		},
+		"firstperson_lefthand": {
+			"translation": [0, 7, 0],
+			"scale": [0.75, 1, 0.75]
+		},
+		"ground": {
+			"translation": [0, 4, 0]
+		},
+		"gui": {
+			"rotation": [20, 45, 0],
+			"translation": [0, 9.5, 0],
+			"scale": [2, 2, 2]
+		},
+		"head": {
+			"translation": [0, 19.5, 0],
+			"scale": [3, 3, 3]
+		},
+		"fixed": {
+			"rotation": [90, 0, -180],
+			"translation": [0, 0, -17],
+			"scale": [4, 4, 4]
+		}
+	}
+}

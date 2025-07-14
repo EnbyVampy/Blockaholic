@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "axis=y": { "model": "blockaholic:block/alien_log_block" },
+    "axis=z": { "model": "blockaholic:block/alien_log_block", "x": 90 },
+    "axis=x": { "model": "blockaholic:block/alien_log_block", "x": 90, "y": 90 }
+  }
+}

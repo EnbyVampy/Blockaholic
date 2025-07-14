@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "blockaholic:block/alien_leaves_block"
+  },
+  "render_type": "cutout"
+}
